@@ -52,3 +52,11 @@ if you are develop on hotfix branches, you'd better also checkout hotfix configu
 2.  modify the rebar.erl, put some command descriptions (optional).
 3.  modify ebin/rebar.app, add `rebar_gitconf` to section of `modules` and `app_dir`.
 4.  rebuild your rebar and enjoy it.
+
+
+#### command
+
+```
+$ ./rebar get-configs
+$ ./rebar delete-configs
+```
